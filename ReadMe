@@ -1,0 +1,4 @@
+-control R
+-In the prompt type your favorite actor who plays Doctor Who.
+-If you type in the correct Doctor the prompt will read "You are Doctor Who fan."
+-If you type in the another name the prompt will read "Leave the TARDIS."
