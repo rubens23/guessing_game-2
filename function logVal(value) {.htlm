@@ -1,0 +1,3 @@
+function logVal(value) {
+  console.log(value)
+}

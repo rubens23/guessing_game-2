@@ -1,0 +1,12 @@
+<html>
+
+function getSize(width, height, depth){
+  var area = width * height;
+  return volume = width * height * depth;
+  var sizes = [area, volume];
+  return sizes;
+}
+var areaOne = getSize (3, 2, 3) [0];
+var VolumeOne = getSize (3, 2, 3)[1];
+
+</html>
