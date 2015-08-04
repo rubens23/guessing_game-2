@@ -1,29 +1,30 @@
 <script>
 
- var message = "Leave the TARDIS";
 console.log("Christopher Eccleston");
 console.log ("David Tennant");
 console.log ("Matt Smith");
-console.log ("Peter Capaldi")
-
- guess = prompt ("Who is your favorite doctor?");
-if (guess == 'Christopher Eccleston'){
-  message = 'You are a Doctor Who fan.'
-}
-if (guess == 'David Tennant'){
-  message = 'You are a Doctor Who fan.'
-}
-if (guess == 'Matt Smith'){
-  message = 'You are a Docotr Who Fan.'
-}
-if (guess == 'Peter Capaldi'){
-  message = 'You are a Doctor Who Fan.'
-}
-
-alert (message);
+console.log ("Peter Capaldi");
+console.log ("Test6");
+var condition = true;
+var message = 'Leave the TARDIS';
 
 
+while (condition)
+{
+guess = prompt ('Who is your favorite doctor?'); // Ask player
+
+console.log(guess);
+if (guess == 'Christopher Eccleston' || guess == 'David Tennant' || guess == 'Matt Smith' || guess == 'Peter Capaldi') //check if guess is correct
+{
+	message = 'You are a Doctor Who fan.'; //define message string
+	condition = false;
+
+}
+alert(message);
+
+}
 
 
 </script>
+
 
