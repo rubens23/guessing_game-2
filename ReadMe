@@ -2,3 +2,7 @@
 -In the prompt type your favorite actor who plays Doctor Who.
 -If you type in the correct Doctor the prompt will read "You are Doctor Who fan."
 -If you type in the another name the prompt will read "Leave the TARDIS."
+
+-added a constructor function named DoctorWho that loops around the original guessing game. Invoked
+-each new doctor and assigned them to the startGame function the game still works the same for
+-the most part. 
